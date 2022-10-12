@@ -112,5 +112,5 @@ function game()
     }
 }
 
-console.log(game());
+game();
 
