@@ -110,6 +110,18 @@ function game()
             }
         }
     }
+
+    let userInput = prompt("Would you like to play again? (y/n)");
+
+    if (userInput.toLowerCase() === "y" )
+    {
+        game();
+    }
+    else
+    {
+        return;
+    }
+
 }
 
 game();
